@@ -1,3 +1,12 @@
+# Resumo
+Contém dois serviços para esse teste, um deles é o server que tem a função de simular o serviço que irá espor a rota para o outro consumir e o user que simulará o serviço que consome
+
+## Server:
+O server expõe uma rota Post e simula o salvamento do usuário passado no body da rota (é salvo em memória)
+
+## User:
+O user contém um for que fará a quantidade de chamadas específicas, no server e após todas as chamadas irá printar no terminal os dados de como foram essas chamadas para analise
+
 Para rodar o projeto deve-se ter docker e docker-compose
 
 É possível fazer dois testes
