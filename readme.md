@@ -49,8 +49,9 @@ O user contém um for que fará a quantidade de chamadas específicas, no server
     2022/07/12 22:26:34 Errors: 388
     2022/07/12 22:26:34 Success: 69612
 
-Amount of requests = Quantidade de requisições feitas
-Bytes of one request = Tamanho em bytes de uma requicição
-Time of all requests = Tempo para ter sido feitas todas as requisições
-Errors = Requisições que deram erros
-Success = Requisições que deram sucesso
+## Legenda:
+Amount of requests = Quantidade de requisições feitas <br>
+Bytes of one request = Tamanho em bytes de uma requicição <br>
+Time of all requests = Tempo para ter sido feitas todas as requisições <br>
+Errors = Requisições que deram erros <br>
+Success = Requisições que deram sucesso <br>
