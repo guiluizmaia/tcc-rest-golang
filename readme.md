@@ -7,11 +7,11 @@ O server expõe uma rota Post e simula o salvamento do usuário passado no body 
 ## User:
 O user contém um for que fará a quantidade de chamadas específicas, no server e após todas as chamadas irá printar no terminal os dados de como foram essas chamadas para analise
 
-Para rodar o projeto deve-se ter docker e docker-compose
+# Para rodar o projeto deve-se ter docker e docker-compose
 
-É possível fazer dois testes
+# É possível fazer dois testes
 
-Comum (Teste em que o user e o server estejam no ar em todo momento):
+## Comum (Teste em que o user e o server estejam no ar em todo momento):
     Comentar (Caso esteja descomentado) seguinte código no arquivo docker-compose.yaml:
     # depends_on:
     #   - user
@@ -30,7 +30,7 @@ Comum (Teste em que o user e o server estejam no ar em todo momento):
     2022/07/12 22:26:34 Errors: 0
     2022/07/12 22:26:34 Success: 70000
 
-Resiliência (Teste em que o user inicia a fazer requisições antes do server estar no ar):
+## Resiliência (Teste em que o user inicia a fazer requisições antes do server estar no ar):
     Comentar (Caso esteja descomentado) seguinte código no arquivo docker-compose.yaml:
     depends_on:
       - user
